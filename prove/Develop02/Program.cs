@@ -2,6 +2,7 @@ using System;
 using System.IO;
 class Program
 {
+    //I exceed the requirments adding two more options in the menu to save and load to CSV files, and create those new methods in the journal class/file
     static void Main(string[] args)
     {
         Journal journal = new Journal();
