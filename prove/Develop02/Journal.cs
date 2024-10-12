@@ -31,7 +31,7 @@ public class Journal
                 outputFile.WriteLine($"{entry.Date}|{entry.PromptText}|{entry.EntryText}");
             }
             string message = "It's your new file";
-            outputFile.WriteLine($"My favorite color is {message}");
+            outputFile.WriteLine($"{message}");
         }
         Console.WriteLine($"Journal saved to {file}");
     }
